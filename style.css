@@ -1,0 +1,2455 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+.parent
+{
+    height: 42.39px;
+    width: 1240px ;
+    border: 1px solid transparent;
+    display: flex;
+    align-items: center;
+
+}
+.phone
+{
+    height: 22.39px;
+    width: 180px;
+    border: 1px solid transparent;
+    display: flex;
+}
+.phone i
+{
+    color: #0b67fb;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.phone p
+{
+    margin-left: 10px;
+    margin-top: 5px;
+    font-size: 14px;
+    color: rgb(106, 107, 107);
+}
+.line
+{
+    height: 22.39px;
+    width: 1px;
+    border: 1px solid transparent;
+
+    border-style: dashed;
+}
+.Address
+{
+    height: 22.39px;
+    width: 250px;
+    border: 1px solid transparent;
+
+    display: flex;
+}
+.Address i
+{
+    color: #0b67fb;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.Address p
+{
+    margin-left: 10px;
+    margin-top: 5px;
+    font-size: 14px;
+    color: rgb(106, 107, 107);
+}
+.date
+{
+    height: 22.39px;
+    width: 260px;
+    border: 1px solid transparent;
+
+    display: flex;
+    margin-left: 500px;
+}
+.date i
+{
+    color: #0b67fb;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.date p
+{
+    margin-left: 10px;
+    margin-top: 5px;
+    font-size: 14px;
+    color: rgb(106, 107, 107);
+}
+.parent1
+{
+   
+    height: 79px;
+    width: 1240px;
+    border: 1px solid transparent;
+
+    border-top-color: rgb(212, 211, 211);
+    border-bottom-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul {
+    height: 24px;
+    width: 715.72px;
+    border: 1px solid transparent;
+
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    margin-top: 20px;
+    
+}
+
+nav ul li a:hover {
+    color: #0b67fb;
+}
+
+.child1
+{
+    height: 59px;
+    width: 230.38px;
+    border: 1px solid transparent;
+
+    background-color: #0b67fb;
+    border-radius: 5px;
+    color: white;
+}
+.child1 h4
+{
+    margin-left: 10px;
+    margin-top: 10px;
+    font-size: 15px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+/* @media (max-width: 1020px) {
+    nav ul {
+        flex-direction: column;
+        text-align: center;
+    }
+
+
+    section#about {
+        padding: 1rem;
+    }
+} */
+
+
+
+
+
+
+
+.child2
+{
+    height: 771.42px;
+    width: 1240px;
+    border: 1px solid transparent;
+
+    display: flex;
+    margin-top: 50px;
+}
+.home1
+{
+    height: 541.42px;
+    width: 620px;
+    border: 1px solid  transparent;
+
+}
+.dentic
+{
+    height: 36.39px;
+    width: 189.75px;
+    border: 1px solid transparent ;
+    margin-top: 100px;
+    margin-right: 200px;
+
+    
+}
+.dentic h6
+{
+    height: 23px;
+    width: 180px;
+    border: 1px solid transparent;
+    color: #3267FF;
+
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 14px;
+}
+.home1 h1
+{
+    height: 241.6px;
+    width:494.83px;
+    border: 1px solid transparent;
+
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 58px;
+    color: #000A2D;
+}
+.home1 p
+{
+    height: 76.78px;
+    width:450px;
+    margin-top: 50px;
+    margin-left: 10px;
+    border: 1px solid transparent;
+
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #636571;
+}
+.home2
+{
+    height: 771.42px;
+    width: 620px;
+    border: 1px solid transparent;
+
+    background-color: #F1F8FF;
+}
+.home2 img
+{
+    height: 558.59px;
+    width: 490px;
+    border: 1px solid transparent;
+
+    margin-top: 211.42px;
+    margin-left: 130px;
+}
+.move
+{
+    margin-top:-900px;
+    margin-left: -50px;
+    height: 558.50px;
+    width: 200;
+}
+.move img
+{
+    height: 558.50px;
+    width: 400px;
+    
+}
+.move1
+{
+    position: relative;
+    top: -600px;
+}
+.shape
+{
+    height:143.39px ;
+    width: 266.81px;
+    border: 1px solid transparent;
+    position: absolute;
+    background-color: #FFFFFF;
+    bottom: 450px;
+}
+.shape1
+{
+    height: 50px;
+    width: 205px;
+    display: flex;
+    border: 1px solid transparent;
+}
+.box1
+{
+    height:50px ;
+    width: 50px;
+    border: 1px solid transparent;
+
+    border-radius: 100%;  
+    background-image: url(h.jfif);
+    background-size: cover;
+}
+.box2
+{
+    height:50px ;
+    width: 50px;
+    border: 1px solid transparent;
+    border-radius: 100%; 
+    background-image: url(portrait-of-happy-young-woman-at-her-desk-in-a-1-1.webp); 
+    background-size: cover;
+    margin-right: 5px;
+
+}.box3
+{
+    height:50px ;
+    width: 50px;
+    border: 1px solid transparent;
+
+    border-radius: 100%;  
+    background-image: url(g.jfif);
+    background-size: cover;
+    margin-right: 5px;
+
+}
+.shape1 h2
+{
+    height: 40px;
+    width: 40px;
+    border: 1px solid transparent;
+
+    border-radius: 100%;
+    color: #FFFFFF;
+    background-color: #3267FF;
+    margin-right: 5px;
+    margin-top: 5px;
+}
+.shape h4
+{
+    margin-right: 80px;
+}
+.shape2
+{
+    margin-right: 80px;
+}
+.shape3
+{
+    margin-right: 80px;
+}
+.shape p
+{
+    position: absolute;
+    bottom: 30px;
+    left: 150px;
+}
+
+
+
+
+
+
+.home3
+{
+    height: 140.19px;
+    width: 1068.91px;
+    border: 1px solid transparent;
+
+    background-color: #FFFFFF;
+    position: relative;
+    bottom: 200px;
+    left: 70px;
+}
+.home4
+{
+    height: 89.19px;
+    width: 1025.91px;
+    border: 1px solid transparent;
+
+    background-color: #FFFFFF;
+    position: absolute;
+    top: 25px;
+    left: 20px;
+    display: flex;
+}
+.details
+{
+    height: 89.19px;
+    width: 256.67px;
+    border: 1px solid transparent;
+}
+.details i
+{
+    height: 18.86px;
+    width: 18.86px;
+    position: relative;
+    top: 10px;
+    left: -100px;
+    color: #3267FF;
+    display: flex;
+}
+.details h6
+{
+    height: 22px;
+    width: 150px;
+    border: 1px solid transparent;
+
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    color: #000A2D;
+    position: absolute;
+    left: 20px;
+
+}
+.details input
+{
+    height: 47.59px;
+    width: 256.677px;
+    border: 1px solid ;
+
+    border-radius: 4px;
+    position: relative;
+    top: 40px;
+}
+.details1
+{
+    height: 89.19px;
+    width: 256.67px;
+    border: 1px solid transparent;
+
+    margin-left: 10px;
+}
+.details1 i
+{
+    height: 18.86px;
+    width: 18.86px;
+    position: relative;
+    top: 10px;
+    left: -105px;
+    color: #3267FF;
+    display: flex;
+}
+.details1 h6
+{
+    height: 22px;
+    width: 150px;
+    border: 1px solid transparent;
+
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    color: #000A2D;
+    position: absolute;
+    left: 20px;
+
+}
+.details1 input
+{
+    height: 47.59px;
+    width: 256.677px;
+    border: 1px solid ;
+
+    border-radius: 4px;
+    position: relative;
+    top: 40px;
+}
+.details2
+{
+    height: 89.19px;
+    width: 256.67px;
+    border: 1px solid transparent;
+
+    margin-left: 10px;
+}
+.details2 i
+{
+    height: 18.86px;
+    width: 18.86px;
+    position: relative;
+    top: 10px;
+    left: -105px;
+    color: #3267FF;
+    display: flex;
+}
+.details2 h6
+{
+    height: 22px;
+    width: 150px;
+    border: 1px solid transparent;
+
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    color: #000A2D;
+    position: absolute;
+    left: 20px;
+
+
+}
+.details2 input
+{
+    height: 47.59px;
+    width: 256.677px;
+    border: 1px solid ;
+
+    border-radius: 4px;
+    position: relative;
+    top: 40px;
+}
+.home4 button
+{
+    height: 54px;
+    width: 162.86px;
+    border: 1px solid transparent;
+
+    border-radius: 4px;
+    background-color: #3267FF;
+    position: relative;
+    left: 50px;
+    top: 40px;
+}
+.home4 button p
+{
+    color: #FFFFFF;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    align-items: center;
+}
+
+
+
+.pro
+{
+    height: 175.19px;
+    width: 1220px;
+    border: 1px solid transparent;
+
+    margin-top: -50.61px;
+    margin-left: 10px;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.home5
+{
+    height: 175.19px;
+    width: 346.66px;
+    border: 1px solid transparent;
+
+}
+/* .home5 img
+{
+    height: 70px;
+    width: 70px;
+    border: 1px solid transparent;
+
+    border-radius: 4px;
+    background-color:#f1f8ff;
+} */
+.home5 img
+{
+    height: 48px;
+    width: 48px;
+    color: #0b67fb;
+}
+.home6
+{
+    height: 175.19px;
+    width: 346.66px;
+    border: 1px solid transparent;
+
+}
+/* .home6 i
+{
+    height: 70px;
+    width: 70px;
+    border: 1px solid transparent;
+
+    border-radius: 4px;
+    background-color:#f1f8ff;
+
+} */
+.home6 img
+{
+    height: 48px;
+    width: 48px;
+    color: #0b67fb;
+}
+.home7
+{
+    height: 175.19px;
+    width: 346.66px;
+    border: 1px solid transparent;
+
+}
+/* .home7 i
+{
+    height: 70px;
+    width: 70px;
+    border: 1px solid transparent;
+
+    border-radius: 4px;
+    background-color:#f1f8ff;
+} */
+.home7 img
+{
+    height: 48px;
+    width: 48px;
+    color: #0b67fb;
+}
+
+
+
+.home8
+{
+    height: 713.23px;
+    width: 1240px;
+    border: 1px solid transparent ;
+
+    display: flex;
+    margin-top: 50px;
+}
+.home9 img
+{
+    height: 558.59px;
+    width: 490px;
+    border: 1px solid transparent;
+
+    margin-top: 150.42px;
+    margin-left: 40px;
+    rotate: 200deg;
+}
+.move2
+{
+    height: 558.59px;
+    width: 490px;
+    position: relative;
+    bottom:750px ;
+    
+
+}
+.move2 img
+{
+
+    rotate: 0deg;
+    height: 558.50px;
+    width: 300px;
+    
+
+}
+
+.move3
+{
+    height: 558.59px;
+    width: 490px;
+    position: relative;
+    bottom:1400px ;
+} 
+.move3 img
+{
+    rotate: 0deg;
+}
+
+.home9
+{
+    height: 713.23px;
+    width: 570px;
+    border: 1px solid transparent;
+
+}
+.box4
+{
+    height: 149px;
+    width:150px ;
+    border: 1px solid transparent;
+    border-color: #dededf;
+    border-radius: 100%;
+    background-color: #FFFFFF;
+    position: relative;
+    bottom: 1300px;
+    right: -200px;
+    
+
+}
+.box5
+{
+    height: 125px;
+    width:126px ;
+    border: 1px solid transparent;
+    border-radius: 100%;
+    background-image: url(d.jfif);
+    background-size: cover;
+    margin-top: 10px;
+    
+}
+.box6
+{
+    height: 149px;
+    width:150px ;
+    border: 1px solid transparent;
+    border-color: #dededf;
+    border-radius: 100%;
+    background-color: #FFFFFF;
+    position: relative;
+    bottom: 1750px;
+    right: 120px; 
+    
+
+}
+.box7
+{
+    height: 125px;
+    width:126px ;
+    border: 1px solid transparent;
+    border-radius: 100%;
+    background-image: url(f.jfif);
+    background-size: cover;
+    margin-top: 10px;
+    
+}
+.home10
+{
+    height: 713.23px;
+    width: 610px;
+    margin-left: 50px;
+    border: 1px solid transparent;
+
+}
+.about
+{
+    height: 36.39px;
+    width: 131.25px;
+    border: 1px solid transparent;
+
+    margin-top: 100px;
+}
+.about p
+{
+    height: 23px;
+    width: 131.25px;
+    border: 1px solid transparent;
+
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    color: #3267FF;
+    margin-top: 5px;
+}
+.a
+{
+    margin-top: 20px;
+}
+.home10 h1
+{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 800;
+    font-size: 52px;
+}
+.file
+{
+    height: 65px;
+    width: 590px;
+    border: 1px solid transparent;
+
+    display: flex;
+    margin-top: 20px;
+}
+.file1
+{
+    height: 65px;
+    width: 590px;
+    border: 1px solid transparent;
+
+}
+.home11
+{
+    height: 20px;
+    width: 236px;
+    border: 1px solid transparent;
+
+    display: flex;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+.home11 i
+{
+    color: #3267FF;
+}
+.home11 p
+{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    margin-left: 10px;
+
+}
+.home12
+{
+    height: 20px;
+    width: 236px;
+    border: 1px solid transparent;
+
+    display: flex;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.home12 i
+{
+    color: #3267FF;
+}
+.home12 p
+{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    margin-left: 10px;
+
+}
+.file2
+{
+    height: 65px;
+    width: 590px;
+    border: 1px solid transparent;
+
+}
+.home13
+{
+    height: 20px;
+    width: 236px;
+    border: 1px solid transparent;
+
+    display: flex;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+.home13 i
+{
+    color: #3267FF;
+}
+.home13 p
+{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    margin-left: 10px;
+
+}
+.home14
+{
+    height: 20px;
+    width: 236px;
+    border: 1px solid transparent;
+
+    display: flex;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.home14 i
+{
+    color: #3267FF;
+}
+.home14 p
+{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    margin-left: 10px;
+
+}
+.home10 button
+{
+    height: 59px;
+    width: 152.86px;
+    border: 1px solid transparent;
+
+    background-color: #3267FF;
+    color: #F1F8FF;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+
+
+
+.home15
+{
+    height: 550.16px;
+    width: 1240px;
+    border: 1px solid transparent;
+
+    display: flex;
+    margin-top: 50px;
+}
+.home16
+{
+    height: 550.16px;
+    width: 413.33px;
+    border: 1px solid transparent;
+
+
+}
+.line4
+{
+    height: 20px;
+    width: 400px;
+    border: 1px solid transparent;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: #cfd0d1;
+}
+.line5
+{
+    height: 20px;
+    width: 380px;
+    border: 1px solid transparent;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: #3267FF;
+    margin-right: 100px;
+}
+.line6
+{
+    height: 20px;
+    width: 400px;
+    border: 1px solid transparent;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: #cfd0d1;
+}
+.line7
+{
+    height: 20px;
+    width: 300px;
+    border: 1px solid transparent;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: #3267FF;
+    margin-right: 100px;
+}
+
+.b
+{
+    height: 36.39px;
+    width: 137.75px;
+    border: 1px solid transparent;
+
+    margin-top: 40px;
+    margin-left: -100px;
+
+
+}
+.b h3
+{
+    color: #3267FF;
+    font-size: 14px;
+    
+}
+.home16 h3 p
+{
+    margin-left: 400px;
+}
+.home16 h2
+{
+    margin-left: 380px;
+}
+.home17
+{
+    height: 550.16px;
+    width: 434.31px;
+    border: 1px solid transparent;
+
+}
+.home17 img
+{
+    height: 558.50px;
+    width: 300px;
+    margin-left: 100px;
+    
+}
+.home18
+{
+    height: 530.16px;
+    width: 377.86px;
+    border: 1px solid transparent;
+
+}
+.home19
+{
+    height: 413.56px;
+    width: 377.86px;
+    border: 1px solid transparent;
+
+    margin-top: 58.3px;
+    background-color: #FFFFFF;
+
+
+}
+.home19 p
+{
+    margin-top: 10px ;
+}
+.file3
+{
+    height: 22px;
+    width: 307.31px;
+    border: 1px solid transparent;
+
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.file3 p
+{
+    margin-top: 0px !important;
+}
+.file4
+{
+    height: 22px;
+    width: 307.31px;
+    border: 1px solid transparent;
+
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.file4 p
+{
+    margin-top: 0px !important;
+}
+.file5
+{
+    height: 22px;
+    width: 307.31px;
+    border: 1px solid transparent;
+
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.file5 p
+{
+    margin-top: 0px !important;
+}
+.home19 button
+{
+    height: 59px;
+    width: 307.86px;
+    border: 1px solid transparent;
+
+    background-color:#3267FF ;
+    color: #FFFFFF;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+
+
+
+
+
+.home20
+{
+    height: 74.39px;
+    width: 1220px;
+    border: 1px solid transparent;
+
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+.file6
+{
+    height: 74.39px;
+    width: 265px;
+    border: 1px solid transparent;
+
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.image
+{
+    height: 50px;
+    width: 50px;
+    border: 1px solid transparent;
+
+    background-color: #3267FF;
+
+}
+.image img
+{
+    height:40px ;
+    width: 40px;
+    color: #FFFFFF;
+}
+.happy
+{
+    height: 75.39px;
+    width: 150.98px;
+    border: 1px solid transparent;
+}
+.c
+{
+    display: flex;
+    margin-top: -20px;
+}
+.c h3
+{
+    font-size: 38px;
+    margin-top: 10px;
+}
+.c h6
+{
+
+    font-size: 50px;
+    font-weight: 900;
+    color: #3267FF;
+    margin-left: 10px;
+    margin-top: -5px;
+}
+.client p
+{
+    font-size: 14px;
+    color: #636571;
+    margin-top: -10px;
+}
+.file7
+{
+    height: 74.39px;
+    width: 265px;
+    border: 1px solid transparent;
+
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.image1
+{
+    height: 50px;
+    width: 50px;
+    border: 1px solid transparent;
+
+    background-color: #3267FF;
+
+}
+.image1 img
+{
+    height:40px ;
+    width: 40px;
+    color: #FFFFFF;
+}
+
+.happy1
+{
+    height: 75.39px;
+    width: 150.98px;
+    border: 1px solid transparent;
+
+}
+.d
+{
+    display: flex;
+    margin-top: -20px;
+}
+.d h3
+{
+    font-size: 38px;
+    margin-top: 10px;
+}
+.d h6
+{
+
+    font-size: 50px;
+    font-weight: 900;
+    color: #3267FF;
+    margin-left: 10px;
+    margin-top: -5px;
+}
+.client1 p
+{
+    font-size: 14px;
+    color: #636571;
+    margin-top: -10px;
+}
+.file8
+{
+    height: 74.39px;
+    width: 265px;
+    border: 1px solid transparent;
+
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.image2
+{
+    height: 50px;
+    width: 50px;
+    border: 1px solid transparent;
+
+    background-color: #3267FF;
+
+}
+.image2 img
+{
+    height:40px ;
+    width: 40px;
+    color: #FFFFFF;
+}
+.happy2
+{
+    height: 75.39px;
+    width: 150.98px;
+    border: 1px solid transparent;
+
+}
+.e
+{
+    display: flex;
+    margin-top: -20px;
+}
+.e h3
+{
+    font-size: 38px;
+    margin-top: 10px;
+}
+.e h6
+{
+
+    font-size: 50px;
+    font-weight: 900;
+    color: #3267FF;
+    margin-left: 10px;
+    margin-top: -5px;
+}
+.client2 p
+{
+    font-size: 14px;
+    color: #636571;
+    margin-top: -10px;
+}
+.file9
+{
+    height: 74.39px;
+    width: 265px;
+    border: 1px solid transparent;
+
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.image3
+{
+    height: 50px;
+    width: 50px;
+    border: 1px solid transparent;
+
+    background-color: #3267FF;
+
+}
+.image3 img
+{
+    height:40px ;
+    width: 40px;
+    color: #FFFFFF;
+}
+.happy3
+{
+    height: 75.39px;
+    width: 150.98px;
+    border: 1px solid transparent;
+
+}
+.f
+{
+    display: flex;
+    margin-top: -20px;
+}
+.f h3
+{
+    font-size: 38px;
+    margin-top: 10px;
+}
+.f h6
+{
+
+    font-size: 50px;
+    font-weight: 900;
+    color: #3267FF;
+    margin-left: 10px;
+    margin-top: -5px;
+}
+.client3 p
+{
+    font-size: 14px;
+    color: #636571;
+    margin-top: -10px;
+}
+
+
+
+
+
+ 
+.child3
+{
+    height: 740px;
+    width: 1900px;
+    border: 1px solid transparent;
+
+    display: flex;
+    margin-top: 50px;
+}
+.home21
+{
+    height: 740px;
+    width: 960px;
+    border: 1px solid transparent;
+
+    display: flex;
+
+
+}
+.file10
+{
+    height: 370px;
+    width: 480px;
+    border: 1px solid transparent;
+ 
+     
+}
+.friend
+{
+    height: 370px;
+    width: 480px;
+    border: 1px solid transparent;
+  
+}
+.friend img
+{
+    height: 370px;
+    width: 480px;
+}
+.friend1
+{
+    height: 370px;
+    width: 480px;
+    border: 1px solid transparent;
+
+    background-color: #011330;  
+    color: #FFFFFF;
+    
+}
+.friend1 center
+{
+    margin-top: 150px;
+}
+.friend1 h4
+{
+    font-size: 20px;
+}
+.file11
+{
+    height: 370px;
+    width: 480px;
+    border: 1px solid transparent;
+  
+}
+.friend2
+{
+    height: 370px;
+    width: 480px;
+    border: 1px solid transparent;
+
+    background-color: #3267FF;
+    color: #FFFFFF; 
+}
+.friend2 center
+{
+    margin-top: 150px;
+}
+.friend2 h4
+{
+    font-size: 20px;
+}
+.friend3
+{
+    height: 370px;
+    width: 480px;
+    border: 1px solid transparent;
+ 
+}
+.friend3 img
+{
+    height: 370px;
+    width: 480px;
+}
+.home22
+{
+    height: 740px;
+    width: 960px;
+    border: 1px solid transparent;
+
+} 
+.home22 img
+{
+    height: 740px;
+    width: 930px; 
+}
+
+
+
+
+
+
+.child4
+{
+    height: 1105.14px;
+    width: 1240px;
+    border: 1px solid transparent;
+
+    margin-top: 50px;
+}
+.our
+{
+    color: #3267FF;
+}
+.child4 h1
+{
+    font-size: 30px;
+
+}
+.child4 p
+{
+    color: #636571;
+    margin-top: 10px;
+}
+.file12
+{
+    height: 848.38px;
+    width: 1220px;
+    border: 1px solid transparent;
+
+    margin-top: 20px;
+}
+.file13
+{
+    height: 414.19px;
+    width: 1220px;
+    border: 1px solid transparent;
+
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+
+}
+.friend4
+{
+    height: 414.19px;
+    width: 386.66px;
+    border: 1px solid transparent;
+
+    background-image: url(dental-hygienist.jpg);
+    background-size: cover;
+} 
+.open
+{
+    height: 184.19px;
+    width: 270.66px;
+    border: 1px solid transparent;
+
+    margin-top: 230px;
+    margin-right: 200px;
+    background-color: #FFFFFF;
+    /* margin-left: 10px; */
+}
+.open h3
+{
+    font-size: 20px;
+    margin-left: 10px;
+}
+.open p
+{
+    color: #636571;
+    margin-left: 10px;
+} 
+.More
+{
+    height: 24px;
+    width: 100px;
+    border: 1px solid transparent;
+
+    margin-top: 20px;
+}
+.More h6
+{
+    color: #3267FF;
+    font-size: 14px;
+} 
+.friend5
+{
+    height: 414.19px;
+    width: 386.66px;
+    border: 1px solid transparent;
+
+    background-image: url(guy-with-curly-hair-sits-dentist-s-chair-with-whitening-gel-his-teeth_20161-342.jpg);
+    background-size: 400px;
+    background-position: 20px;
+
+} 
+.open1
+{
+    height: 184.19px;
+    width: 270.66px;
+    border: 1px solid transparent;
+    margin-right: 200px;
+
+    margin-top: 230px;
+    background-color: #FFFFFF;
+}
+.open1 h3
+{
+    font-size: 20px;
+
+}
+.open1 p
+{
+    color: #636571;
+    margin-left: 10px;
+} 
+.More1
+{
+    height: 24px;
+    width: 100px;
+    border: 1px solid transparent;
+
+    margin-top: 20px;
+}
+.More1 h6
+{
+    color: #3267FF;
+    font-size: 14px;
+} 
+.friend6
+{
+    height: 414.19px;
+    width: 386.66px;
+    border: 1px solid transparent;
+
+    background-image: url(black-dentist-doctor-and-his-female-assistant-examinating-patients-teeth-low-angle.jpg);
+    background-size: 500px;
+} 
+.open2
+{
+    height: 184.19px;
+    width: 270.66px;
+    border: 1px solid transparent;
+    margin-right: 200px;
+
+    margin-top: 230px;
+    background-color: #FFFFFF;
+}
+.open2 h3
+{
+    font-size: 20px;
+}
+.open2 p
+{
+    color: #636571;
+    margin-left: 10px;
+} 
+.More2
+{
+    height: 24px;
+    width: 100px;
+    border: 1px solid transparent;
+
+    margin-top: 20px;
+}
+.More2 h6
+{
+    color: #3267FF;
+    font-size: 14px;
+} 
+
+.file14
+{
+    height: 414.19px;
+    width: 1220px;
+    border: 1px solid transparent;
+
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.friend7
+{
+    height: 414.19px;
+    width: 386.66px;
+    border: 1px solid transparent;
+
+    background-image: url(veneers_hero.png);
+    background-size: cover;
+} 
+.open3
+{
+    height: 184.19px;
+    width: 270.66px;
+    border: 1px solid transparent;
+    margin-right: 200px;
+
+    margin-top: 230px;
+    background-color: #FFFFFF;
+}
+.open3 h3
+{
+    font-size: 20px;
+}
+.open3 p
+{
+    color: #636571;
+    margin-left: 10px;
+} 
+.More3
+{
+    height: 24px;
+    width: 100px;
+    border: 1px solid transparent;
+
+    margin-top: 20px;
+}
+.More3 h6
+{
+    color: #3267FF;
+    font-size: 14px;
+} 
+.friend8
+{
+    height: 414.19px;
+    width: 386.66px;
+    border: 1px solid transparent;
+
+    background-image: url(Untitled-1.jpg);
+    background-size: cover;
+} 
+.open4
+{
+    height: 184.19px;
+    width: 270.66px;
+    border: 1px solid transparent;
+    margin-right: 200px;
+
+    margin-top: 230px;
+    background-color: #FFFFFF;
+}
+.open4 h3
+{
+    font-size: 20px;
+}
+.open4 p
+{
+    color: #636571;
+    margin-left: 10px;
+} 
+
+.More4
+{
+    height: 24px;
+    width: 100px;
+    border: 1px solid transparent;
+
+    margin-top: 20px;
+}
+.More4 h6
+{
+    color: #3267FF;
+    font-size: 14px;
+} 
+.friend9
+{
+    height: 414.19px;
+    width: 386.66px;
+    border: 1px solid transparent;
+
+    background-image: url(male-dentist-and-woman-in-dentist-office-q3yahyr4obspaqxyrg5guqp2dzgl9ku4a7e1nacbxs.jpg);
+    background-size: cover;
+} 
+.open5
+{
+    height: 184.19px;
+    width: 270.66px;
+    border: 1px solid transparent;
+    margin-right: 200px;
+
+    margin-top: 230px;
+    background-color: #FFFFFF;
+
+}
+.open5 h3
+{
+    font-size: 20px;
+}
+.open5 p
+{
+    color: #636571;
+    margin-left: 10px;
+} 
+
+.More5
+{
+    height: 24px;
+    width: 100px;
+    border: 1px solid transparent;
+
+    margin-top: 20px;
+}
+.More5 h6
+{
+    color: #3267FF;
+    font-size: 14px;
+} 
+
+
+
+
+
+
+
+
+.child5
+{
+    height: 802.97px;
+    width: 1240px;
+    border: 1px solid transparent;
+
+    display: flex;
+}
+.file15
+{
+    height: 369.55px;
+    width: 560px;
+    border: 1px solid transparent;
+
+    margin-top: 100px;
+}
+.test
+{
+    height: 36.39px;
+    width: 138.81px;
+    border: 1px solid transparent;
+
+    margin-top: 10px;
+    margin-left: 5px;
+
+}
+.test h6
+{
+    color: #3267FF;
+    font-size: 15px;
+    margin-top: 5px;
+}
+.file15 h1
+{
+    font-size: 50px;
+    margin-top: 20px;
+}
+.file15 p
+{
+    margin-top: 10px;
+    color: #636571;
+
+}
+.see
+{
+    background-color: #0b67fb;
+    margin-top: 20px;
+    height: 57px;
+    width: 176.3px;
+    border: 1px solid transparent;
+
+}
+.see p
+{
+    color: #FFFFFF;
+    font-size: 14px;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+.file16
+{
+    height: 800px;
+    width: 620px;
+    border: 1px solid transparent;
+
+}
+.file17
+{
+    height:237.66px ;
+    width: 600px;
+    border: 1px solid transparent;
+
+    display: flex;
+    background-color: #fdfdfd;
+    margin-top: 80px;
+}
+.friend10
+{
+    height: 157.66px;
+    width: 438.8px;
+    border: 1px solid transparent;
+
+
+}
+.friend10 h5
+{
+    font-size: 20px;
+    margin-top: 20px;
+}
+.friend10 h6
+{
+    font-size: 15px;
+    color: #636571;
+}
+.friend11
+{
+    height: 237.66px;
+    width: 170.11px;
+    border: 1px solid transparent;
+
+    background-image: url(div.elementor-widget-wrap.jpg);
+    background-size: cover;
+}
+.file18
+{
+    height:237.66px ;
+    width: 600px;
+    border: 1px solid transparent;
+
+    display: flex;
+    background-color: #fdfdf8;
+    margin-top: 80px;
+}
+.friend12
+{
+    height: 157.66px;
+    width: 438.8px;
+    border: 1px solid transparent;
+
+}
+.friend12 h5
+{
+    font-size: 20px;
+    margin-top: 20px;
+
+}
+.friend12 h6
+{
+    font-size: 15px;
+    color: #636571;
+}
+.friend13
+{
+    height: 237.66px;
+    width: 170.11px;
+    border: 1px solid transparent;
+
+    background-image: url(Untitled-2.jpg);
+    background-size: 250px;
+    background-position: -20px;
+}
+
+
+
+
+
+
+.child6
+{
+    height: 629.55px;
+    width:1240px ;
+    border: 1px solid transparent;
+
+    background-color: #F1F8FF;
+    margin-top: 50px;
+    background-image: url(implant2.jpg);
+    background-size: cover;
+}
+.file19
+{
+    height: 629.55px;
+    width:480px ;
+    border: 1px solid transparent;
+
+    background-color: #F1F8FF;
+    transform: skew(-15deg);
+    margin-left: -450px;
+}
+.file20
+{
+    height: 629.55px;
+    width:540px ;
+    border: 1px solid transparent;
+
+    background-color: #F1F8FF; 
+    position:relative;
+    bottom: 630px;
+    left: -350px;
+
+    
+}
+.file21
+{
+    height: 369.55px;
+    width: 540px;
+    border: 1px solid transparent;
+
+    padding: 5px;
+    margin-top: 100px;
+}
+.best
+{
+    height: 36.39px;
+    width: 152.94px;
+    border: 1px solid transparent;
+
+    background-color:#f9fbfd ;
+}
+.best h5
+{
+    color: #0b67fb;
+    margin-top: 5px;
+}
+.file21 h1
+{
+    font-size: 50px;
+}
+.file21 button
+{
+    height: 57px;
+    width: 153.92px;
+    border: 1px solid transparent;
+
+    background-color: #0b67fb;
+}
+.file21 button p
+{
+    margin-top: 10px;
+    margin-left: 10px;
+    color: #FFFFFF;
+    font-size: 20px;
+}
+
+
+
+
+
+.child7
+{
+    height: 783.33px;
+    width: 1240px;
+    border: 1px solid transparent;
+
+    margin-top: 50px;
+
+}
+.Blogs
+{
+    color: #3267FF;
+}
+.file22 h1
+{
+    font-size: 30px;
+}
+.file22 p
+{
+    color: #636571;
+    margin-top: 20px;
+}
+.file23
+{
+    height: 571.56px;
+    width: 1220px;
+    border: 1px solid transparent;
+
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.file24
+{
+    height: 539.56px;
+    width: 380px;
+    border: 1px solid transparent;
+
+}
+.image4
+{
+    height: 300px;
+    width: 380px;
+    border: 1px solid transparent;
+
+    background-image: url(professional-stomatologist-inspecting-oral-cavity-of-teenager.jpg);
+    background-size: cover;
+
+}
+.image4 h3
+{
+    height: 25px;
+    width: 59.28px;
+    border: 1px solid transparent;
+    margin-right: 330px;
+
+    background-color: #FFFFFF;
+    border-top-right-radius: 4px;
+    color:#0b67fb ;
+    margin-top:275px;
+}
+.new
+{
+    height: 215.53px;
+    width: 380px;
+    border: 1px solid transparent;
+
+}
+.new h2
+{
+    font-size: 20px;
+}
+.new p
+{
+    margin-top: 10px;
+    font-size: 15px;
+    color: #636571;
+}
+.new button
+{
+    height: 52px;
+    width: 168.77px;
+    border: 1px solid transparent;
+
+    background-color: #0b67fb;
+    margin-top: 10px;
+}
+.new button p
+{
+    color: #FFFFFF !important;
+}
+.file25
+{
+    height: 539.56px;
+    width: 380px;
+    border: 1px solid transparent;
+
+}
+.image5
+{
+    height: 300px;
+    width: 380px;
+    border: 1px solid transparent;
+
+    background-image: url(teeth-whitening-procedure-in-the-dental-office.jpg);
+    background-size: cover;
+
+}
+.image5 h3
+{
+    height: 25px;
+    width: 59.28px;
+    border: 1px solid transparent;
+    margin-right: 330px;
+
+    background-color: #FFFFFF;
+    border-top-right-radius: 4px;
+    color:#0b67fb ;
+    margin-top:275px;
+}
+.new1
+{
+    height: 215.53px;
+    width: 380px;
+    border: 1px solid transparent;
+
+}
+.new1 h2
+{
+    font-size: 20px;
+}
+.new1 p
+{
+    margin-top: 10px;
+    font-size: 15px;
+    color: #636571;
+}
+.new1 button
+{
+    height: 52px;
+    width: 168.77px;
+    border: 1px solid transparent;
+
+    background-color: #0b67fb;
+    margin-top: 10px;
+}
+.new1 button p
+{
+    color: #FFFFFF !important;
+}
+.file26
+{
+    height: 539.56px;
+    width: 380px;
+    border: 1px solid transparent;
+
+}
+.image6
+{
+    height: 300px;
+    width: 380px;
+    border: 1px solid transparent;
+
+    background-image: url(teenage-female-sitting-in-dental-chair-doctor-with-jaw-model-and-toothbrush.jpg);
+    background-size: cover;
+
+}
+.image6 h3
+{
+    height: 25px;
+    width: 59.28px;
+    border: 1px solid transparent;
+    margin-right: 330px;
+
+    background-color: #FFFFFF;
+    border-top-right-radius: 4px;
+    color:#0b67fb ;
+    margin-top:275px;
+}
+.new2
+{
+    height: 215.53px;
+    width: 380px;
+    border: 1px solid transparent;
+
+}
+.new2 h2
+{
+    font-size: 20px;
+}
+.new2 p
+{
+    margin-top: 10px;
+    font-size: 15px;
+    color: #636571;
+}
+.new2 button
+{
+    height: 52px;
+    width: 168.77px;
+    border: 1px solid transparent;
+
+    background-color: #0b67fb;
+    margin-top: 10px;
+}
+.new2 button p
+{
+    color: #FFFFFF !important;
+}
+
+
+
+.child8
+{
+    height: 439.7px;
+    width: 1240px;
+    border: 1px solid transparent;
+
+    background-color: #F1F8FF;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+.file27
+{
+    height: 330.95px;
+    width: 570px;
+    border: 1px solid transparent;
+
+    margin-top: 50px;
+}
+.file27 h5
+{
+    color: #0b67fb;
+}
+.file27 h1
+{
+    font-size: 50px;
+    margin-top: 20px;
+}
+.file27 p
+{
+    margin-top: 20px;
+    color: #636571;
+}
+.file27 button
+{
+    background-color: #0b67fb;
+    height: 57px;
+    width: 228.03px;
+    border: 1px solid transparent;
+
+    margin-top: 30px;
+}
+.file27 button p
+{
+    color: #FFFFFF;
+}
+
+.file28
+{
+    height: 535.75px;
+    width: 485px;
+    border: 1px solid transparent;
+
+    margin-top: -100px;
+}
+
+.file28 img
+{
+    height: 500.59px;
+    width: 485px;
+    border: 1px solid transparent;
+
+    margin-top: 80.42px;
+    margin-left: 40px;
+    rotate: 100deg;
+}
+.move4
+{
+    margin-top:-650px;
+    margin-left: 100px;
+    
+
+}
+.move4 img
+{
+    rotate: 0deg;
+    height: 500.50px;
+    width: 300px;
+    
+
+}
+.move5
+{
+    position: relative;
+    top: -600px;
+}
+.move5 img
+{
+    rotate: 0deg;
+}
+
+
+
+
+
+
+
+
+.child9
+{
+    height: 395.97px;
+    width:1240px ;
+    border: 1px solid transparent;
+
+    background-color: #000A2D;
+
+}
+.child10
+{
+    height: 320.97px;
+    width: 1240px;
+    border: 1px solid transparent;
+
+    margin-top: 90px;
+    
+}
+.file29
+{
+    height: 207.59px;
+    width: 1220px;
+    border: 1px solid transparent;
+
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.child11
+{
+    height: 207.58px;
+    width: 240.98px;
+    border: 1px solid transparent;
+
+
+}
+.child11 img
+{
+    height: 240px;
+    width: 240px;
+    margin-top: -90px;
+}
+.child11 p
+{
+    margin-top:-90px;
+    color: #FFFFFF;
+}
+.social
+{
+    height: 18px;
+    width: 240.98px;
+    border: 1px solid transparent;
+
+    margin-top: 10px;
+}
+.child12
+{
+    height: 207.58px;
+    width: 240.98px;
+    border: 1px solid transparent;
+
+    color: #FFFFFF;
+}
+.line1
+{
+    height: 4px;
+    width: 240px;
+    border: 1px solid transparent;
+
+    background-color: #0b67fb;
+    margin-top: 10px;
+
+
+}
+.child12 ul
+{
+    height: 132.38px;
+    width: 240.98px;
+    border: 1px solid transparent;
+
+    list-style-type: none;
+    margin-top: 10px;
+
+
+}
+.child12 li a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    margin-top: 20px;
+    
+}
+
+.child12 ul li a:hover {
+    color: #0b67fb;
+}
+.child13
+{
+    height: 207.58px;
+    width: 240.98px;
+    border: 1px solid transparent;
+
+    color: #FFFFFF;
+}
+.line2
+{
+    height: 4px;
+    width: 240px;
+    border: 1px solid transparent;
+    background-color: #0b67fb;
+    margin-top: 10px;
+
+
+}
+.child13 ul
+{
+    height: 132.38px;
+    width: 240.98px;
+    border: 1px solid transparent;
+
+    list-style-type: none;
+    margin-top: 10px;
+
+
+}
+.child13 li a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    margin-top: 20px;
+    
+}
+
+
+.child13 ul li a:hover {
+    color: #0b67fb;
+}
+
+
+.child14
+{
+    height: 207.58px;
+    width: 240.98px;
+    border: 1px solid transparent;
+
+    color: #FFFFFF;
+}
+.line3
+{
+    height: 4px;
+    width: 240px;
+    border: 1px solid transparent;
+
+    background-color: #0b67fb;
+    margin-top: 10px;
+
+
+}
+.sign
+{
+    height: 58px;
+    width: 253.97px;
+    background-color: #FFFFFF;
+    display: flex;
+    margin-top: 20px;
+}
+.sign input
+{
+    height:58px ;
+    width: 153px;
+}
+.sign button
+{
+    height: 46px;
+    width: 125px;
+    background-color: #0b67fb;
+    color: #FFFFFF;
+} 
+
+
+
+.file30
+{
+    height: 48.39px;
+    width: 1220px;
+    display: flex;
+    margin-top: 50px;
+}
+.file30 h6
+{
+    color: #FFFFFF;
+    margin-left: 50px;
+}
+.file30 p
+{
+    color: #FFFFFF;
+    margin-left: 800px;
+}
